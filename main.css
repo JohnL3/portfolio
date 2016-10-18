@@ -18,7 +18,7 @@ position: fixed;
 	    -ms-transform: translateX(-50%);
 	        transform: translateX(-50%);
 	width:990px;
-	height: 40px;
+	height: 60px;
 	background-color: #e20404;
 	padding: 5px 0 5px 0;
 	display: -webkit-box;
@@ -46,8 +46,8 @@ position: fixed;
 	margin-left: 30px;
 
 }
-ul{
-	margin-top: 0;
+ ul{
+	margin-top: 15px;
 	margin-bottom: 0;
 	padding-left: 0;
 }
@@ -57,7 +57,7 @@ ul{
 .header-li{
 	display: none;
 	list-style-type: none;
-	font-size: 0.7em;
+	font-size: 0.9em;
 	-webkit-align-self: center;
 	    -ms-flex-item-align: center;
 	        align-self: center;
@@ -66,20 +66,23 @@ ul{
 .header-li li:hover{
 	color:#e6d7d7;
 }
-.header-li li{
+.header-li ul li{
 	list-style-type: none;
 	padding:5px 5px;
 	display: inline;
 	cursor: pointer;
+	margin-right: 15px;
 }
 .fa{
 	float: right;
 	margin-right: 20px;
+	margin-top: 12px;
 	border: 2px solid orange;
 	padding: 7px 5px 7px 5px;
 	-webkit-align-self: center;
 	    -ms-flex-item-align: center;
 	        align-self: center;
+	
 }
 .head-drop{
 	position: fixed;
@@ -376,6 +379,4 @@ hr{
 		width:990px;
 	}
 }
-
-
 
