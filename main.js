@@ -21,7 +21,7 @@ $(document).ready(function() {
     if (a === 'PORTFOLIO') {
       $(".head-drop").slideUp();
       $('html, body').animate({
-	     scrollTop: ($(".projects").offset().top)-50
+	     scrollTop: ($(".projects").offset().top)-70
       }, 700);
      
     }
