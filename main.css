@@ -22,6 +22,7 @@ position: fixed;
 	display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+	display: -webkit-flex;
 	justify-content: space-between;
 	z-index: 3;
 	color:white;
@@ -154,6 +155,8 @@ ul{
 		display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	    flex-wrap: wrap;
 	-webkit-box-pack: center;
@@ -195,6 +198,8 @@ img{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0000', endColorstr='#cc0000',GradientType=1 );
 	display: flex;
 	flex-wrap:wrap;
+	display: -webkit-flex;
+	-webkit-flex-wrap: wrap;
 }
 .contact-icons{
 	box-sizing: border-box;
@@ -265,6 +270,8 @@ hr{
 	display: flex;
 	-ms-flex-wrap: wrap;
 	    flex-wrap: wrap;
+	display: -webkit-flex;
+	-webkit-flex-wrap: wrap;
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
 	margin:0;
@@ -308,6 +315,7 @@ hr{
   	display:-webkit-box;
 	display:-ms-flexbox;
 	display:flex;
+	display: -webkit-flex; 
   }
 	.contact{
 		width:50%;
@@ -319,6 +327,7 @@ hr{
 	.contact-outer{
 		-ms-flex-wrap:nowrap;
 	    flex-wrap:nowrap;
+	-webkit-flex-wrap: nowrap;
 	}
 }
 @media(min-width:760px){
