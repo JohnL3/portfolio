@@ -72,6 +72,12 @@ position: fixed;
 	cursor: pointer;
 	margin-right: 15px;
 }
+.header-li ul{
+	margin-top: 0;
+}
+.list ul{
+	margin-top:10px;
+}
 .fa{
 	float: right;
 	margin-right: 20px;
